@@ -1,0 +1,16 @@
+
+:root {
+  --plaster: #E8EAE7;
+  --paper: #F4F5F2;
+  --slate: #1F272C;
+  --slate-soft: #5A646A;
+  --mortar: #B4B9B5;
+  --indigo: #2D3C9B;
+  --indigo-light: #A9B4F2;
+  --oxide: #A63D2F;
+  --max-width: 1440px;
+  --gutter: 24px;
+  --section-space: clamp(96px, 14vw, 200px);
+  --radius: 2px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

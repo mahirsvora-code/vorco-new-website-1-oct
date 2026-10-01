@@ -858,3 +858,18 @@ body::before { display: none; }
   .decision-field__diagram { height: auto; min-height: 0 !important; }
   .decision-stage { min-height: 0 !important; height: auto; }
 }
+/* VORCO — force interface arrows to render as text, not emoji */
+a {
+  font-variant-emoji: text;
+}
+
+.button span[aria-hidden="true"],
+.text-link span[aria-hidden="true"],
+.partnership-actions span[aria-hidden="true"],
+.product-signal i,
+.model-footer span[aria-hidden="true"] {
+  font-family: "Manrope", "Helvetica Neue", Arial, sans-serif !important;
+  font-variant-emoji: text !important;
+  font-style: normal;
+  color: inherit;
+}
